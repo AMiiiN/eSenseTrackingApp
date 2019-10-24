@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dp"
+    android:background="#00B11B1B"
+    android:backgroundTint="#00B65D22"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnConnect2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="225dp"
+        android:background="@color/colorBtnDisc"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="onClick"
+        android:text="@string/button_connect_polar" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/text_connection_status"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorBtnDisc"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="onClick"
+        android:text="@string/button_connect_esense" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="375dp"
+        android:background="@color/colorIdle"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="onClick"
+        android:text="@string/button_start_recording" />
+
+    <TextView
+        android:id="@+id/stage_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/text_status"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:contentDescription="eSense device ID/name"
+        android:editable="true"
+        android:ems="10"
+        android:hint="eSense device ID/name"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

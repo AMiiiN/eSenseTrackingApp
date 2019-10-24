@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">eSense Tracker</string>
+    <string name="button_connect_esense">Connect to eSense</string>
+    <string name="button_connect_polar">Connect to Polar HR</string>
+    <string name="button_start_recording">Start recording</string>
+    <string name="button_stop_recording">Stop recording</string>
+    <string name="button_disconnect_esense">Disconnect from eSense</string>
+    <string name="button_disconnect_polar">Disconnect from Polar HR</string>
+    <string name="text_connection_status">Connection status:</string>
+    <string name="text_status">Initializing...</string>
+</resources>
